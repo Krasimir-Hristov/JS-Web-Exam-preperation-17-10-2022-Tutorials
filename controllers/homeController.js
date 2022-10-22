@@ -14,7 +14,7 @@ homeController.get('/', (req, res) => {
     }
       
 
-    res.render('guest-home', {
+    res.render(view, {
         title: 'Home Page',
     });
 });
