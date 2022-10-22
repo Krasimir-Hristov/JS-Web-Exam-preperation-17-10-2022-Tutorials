@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
-//TODO change database name
-const dbnName = 'BookingUni';
+const dbnName = 'Tutorials';
 
 const CONNECTION_STRING = `mongodb://localhost:27017/${dbnName}`;
 
