@@ -8,11 +8,9 @@ homeController.get('/', async (req, res) => {
     let courses = [];
 
     if(req.user) {
-        //user home page
         view = 'user-home';
         courses = await getAllByDate();
     } else {
-        // guest home page
         view = 'guest-home';
         courses = await getRecent();
         
