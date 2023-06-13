@@ -8,7 +8,6 @@ const userSchema = new Schema({
 
 
 userSchema.index({ username: 1 }, {
-    //unique: true,
     collation: {
         locale: 'en',
         strength: 2
